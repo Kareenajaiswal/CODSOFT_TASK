@@ -1,0 +1,224 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1A2130;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color:orange;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.intro {
+    max-width: 50%;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.intro p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.intro .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #ffc107;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+
+.image img {
+    width: 400px;
+    border-radius: 60%;
+}
+.logo{
+    font-size:25px;
+    color:#005C78;
+    font-weight: bold;
+}
+#portfolio, #projects, #contact {
+    padding: 50px;
+    text-align: center;
+
+}
+#about{
+    background-color:#5A72A0;
+    color:black;
+    font-size: 20px;
+    padding: 50px;
+
+}
+#about p{
+    justify-content: left;
+
+}
+#about img{
+    float:right;
+    height: 350px;
+    width: 300px;
+    border-radius: 40px;
+}
+#about h2{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+
+}
+#portfolio{
+    background-color: orange;
+    color: black;
+}
+#projects{
+    background-color: #134B70;
+    font-weight: bold;
+}
+
+.carousel {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.carousel-item {
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form label {
+    margin: 10px 0 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #e0a800;
+}
+.certifications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.certificate {
+    border: 2px solid #ccc;
+    padding: 10px;
+    max-width: 200px;
+}
+
+.certificate img {
+    /* max-width: 100%; */
+    height:300px;
+    width: 200px;
+}
+
+.certificate p {
+    margin-top: 10px;
+}
